@@ -2,35 +2,6 @@ import logo from './logo.png';
 import './App.css';
 import { useState } from 'react';
 
-{/* 
-const species = [
-  {
-    id: 0,
-    name: 'Human',
-    averageHeight: '180',
-    population: '4',
-  },
-  {
-    id: 1,
-    name: 'Droid',
-    averageHeight: 'n/a',
-    population: '4',
-  }, 
-  {
-    id: 2,
-    name: 'Wookie',
-    averageHeight: '210',
-    population: '2',
-  }
-];
-
-const speciesDetials = species.map(specie => 
-<li key={specie.id}>
-  {specie.name}'s average height is {specie.averageHeight}, {specie.population}
-</li>
-);
-*/}
-
 function Button() {
   const [count, setCount] = useState(0);
   const [score, setScore] = useState(0);
