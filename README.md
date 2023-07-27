@@ -9,7 +9,8 @@
 
 #### V1.1.0
 ###### Implemented UseEffect. Game Over page available.
-![V1.0.0 Screenshot](/src/V1.1.0.png)
+![V1.1.0 Game Page](/src/V1.1.0.png)
+![V1.1.0 Game Over](/src/V1.1.0GameOver.png)
 
 ##### Bug:
 ###### Try Again button not working.
