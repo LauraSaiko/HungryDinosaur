@@ -8,13 +8,15 @@
 ![V1.0.0 Screenshot](/src/V1.0.0.png)
 
 #### V1.1.0
-###### Implemented UseEffect. Game Over page available.
+###### Implemented UseEffect. 'Game Over' page available.
 ![V1.1.0 Game Page](/src/V1.1.0.png)
 ![V1.1.0 Game Over](/src/V1.1.0GameOver.png)
 
 ##### Bug:
-###### Try Again button not working.
+###### 'Try Again' button not working.
 
 ## Future Updates
 #### V1.1.1
-###### Fix Try Again button. 
+###### Fix 'Try Again' button.
+#### V1.1.2
+###### New dinosaur image for 'Game Over' page
