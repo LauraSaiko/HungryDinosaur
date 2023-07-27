@@ -71,10 +71,6 @@ function GameOver() {
 function App() {
 
   const [warning, setWarning] = useState(false)
-
-  function resetGame() {
-    setWarning(false);
-  }
   
   return (
     <div className="App">
@@ -93,7 +89,7 @@ function App() {
           :
           <div>
             <GameOver/>
-            <button className='App-button' onClick={resetGame}>Try Again</button>
+            <button className='App-button' onClick={() => setWarning(false)}>Try Again</button>
           </div>
         }
       </div>
