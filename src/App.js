@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 function ButtonAdd({ setWarning }) {
   const [count, setCount] = useState(0);
   const [score, setScore] = useState(0)
+  
 
   useEffect(() => {
     if (count > 21) {
@@ -31,6 +32,7 @@ function ButtonAdd({ setWarning }) {
     setCount(0)
   }
 
+  
   return (
     <div className='Buttons'>
 
@@ -69,6 +71,10 @@ function GameOver() {
 function App() {
 
   const [warning, setWarning] = useState(false)
+
+  function resetGame() {
+    setWarning(false);
+  }
   
   return (
     <div className="App">
@@ -83,11 +89,11 @@ function App() {
             <p className='App-explanation'>He Will Give You Coins If He's Satisfied!</p>
             <p className='App-explanation'>But Maybe Not Too Much At One Time For His Stomach...</p>
             <ButtonAdd setWarning={setWarning}/>
-          </div>        
+          </div>
           :
           <div>
             <GameOver/>
-            <button className='App-button'>Try Again</button>
+            <button className='App-button' onClick={resetGame}>Try Again</button>
           </div>
         }
       </div>
