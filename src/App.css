@@ -7,6 +7,12 @@
   .App-logo {
     animation: App-logo-spin infinite 2s ease-in;
   }
+  .App-happy {
+    animation: App-logo-spin infinite 1.5s ease-in;
+  }
+  .App-angry {
+    animation: App-logo-spin infinite 1.5s ease-in;
+  }
 }
 
 .App {
@@ -23,10 +29,13 @@
 
 .App-button {
   color: rgb(55, 91, 91);
+  padding: 10px 15px 10px 15px;
+  margin-left: calc(10px + 2vmin);
+  margin-right: calc(10px + 2vmin);
 }
 
 .App-button:hover {
-  color: #586568;
+  color: #000000;
 }
 
 .App-explanation {
@@ -46,4 +55,44 @@
     transform: rotate(-5deg);
   }
   
+}
+
+
+.App-angry {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@keyframes App-angry-spin {
+  0% {
+    transform: rotate(-100deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-100deg);
+  }
+  
+}
+
+@keyframes App-happy-spin {
+  0% {
+    transform: rotate(-100deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-100deg);
+  }
+  
+}
+
+#Warning {
+  color: rgb(154, 26, 26);
+}
+
+#Winning {
+  color: rgb(207, 172, 0);
 }

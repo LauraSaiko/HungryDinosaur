@@ -15,12 +15,17 @@
 #### V1.1.1
 ###### Fixed 'Try Again' button.
 
+#### V1..2.0
+###### Updated version with new game winning condition and the page for it. 
+###### Updated angry & happy version of dinosaur figure. 
+###### Updated the styling for buttons & text. 
+![V1.2.0 Game Page](/src/V1.2.0.png)
+![V1.2.0 Congratulations](/src/V1.2.0Congrat.png)
+![V1.2.0 Game Over](/src/V1.2.0GameOver.png)
+
 ##### Bug:
 ###### Please Report Any Bugs To Laura (laurazhou248@gmail.com)
 ###### Very Much Appreciated! 
 
-
 ## Future Updates
-
-#### V1.1.2
-###### New dinosaur image for 'Game Over' page
+###### 
